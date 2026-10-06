@@ -1,0 +1,26 @@
+# Data — never commit the dataset (large + licensing)
+data/*.csv
+data/*.zip
+!data/README.md
+
+# Trained artifacts — regenerate with src/train.py
+models/*.joblib
+models/*.csv
+models/*.json
+!models/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
